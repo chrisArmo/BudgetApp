@@ -21,7 +21,8 @@ module.exports = {
         contentBase: path.join(process.cwd(), "public"),
         publicPath: "/",
         port: 3000,
-        overlay: true
+        overlay: true,
+        historyApiFallback: true
     },
     module: {
         rules: [
